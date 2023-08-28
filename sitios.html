@@ -1,20 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <title>Sitios</title>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
 <body>
-    <header>
-        <h1>Quebrada de Humahuaca</h1>
-    </header>
+    <!-- <header>
+        <h1>Jujuy</h1>
+        <p>En el corazón del noroeste argentino, Jujuy te espera con paisajes multicolores 
+            y una historia que se siente en cada rincón. Sus montañas, valles y culturas 
+            ancestrales te cautivarán. Descubre una provincia donde la naturaleza y la 
+            historia se entrelazan en un abrazo eterno bajo el sol radiante. 
+            ¡Ven y sé parte de esta experiencia única en Jujuy!</p>
+    </header> -->
 
-    <div class="owo">
-        <section class="caja">
-            <p>La Quebrada de Humahuaca es un tesoro natural y cultural declarado Patrimonio de la Humanidad por la UNESCO. Este impresionante cañón de colores cambiantes se extiende por más de 150 kilómetros y está salpicado de pueblos pintorescos como Purmamarca y Tilcara. Sus montañas de múltiples tonalidades y su rica historia hacen de este lugar una experiencia inolvidable para los amantes de la belleza natural y la cultura.</p>
-        </section>
-        <img src="./img/humahuaca.jpg" width="300px"/>
+    <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand">Jujuy</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+
+    <div class="contenedor">
+
+        <div class="lateral">
+            <h2>Jujuy</h2>
+            <u>
+                <li>Turismo</li>
+                <li>Dormir</li>
+                <li>Que ver</li>
+                <li>Restaurantes</li>
+                <li>Fotos</li>
+            </u>
+        </div>
+        <div class="pantalla">
+            <div>
+                <h2 id="titulo">Atracciones turisticas de Jujuy</h2>
+            </div>
+
+            <div class="elementos">
+                <div class="caja">
+                    <img src="./img/humahuaca.jpg" width="325"/>
+                    <h2>Quebrada de Humahuaca</h2>
+                    <p>Un deslumbrante cañón de colores cambiantes y pueblos históricos, Patrimonio de la Humanidad por la UNESCO.</p>
+                </div>
+                <div class="caja">
+                    <img src="./img/salinas.jpg" width="325"/>
+                    <h2>Salinas Grandes</h2>
+                    <p>Un vasto desierto de sal que brilla bajo el sol, creando un paisaje surrealista y único.</p>
+                </div>
+                <div class="caja">
+                    <img src="./img/tilcara.jpg" width="325"/>
+                    <h2>Tilcara</h2>
+                    <p>Pueblo pintoresco con arquitectura de adobe, el Pucará de Tilcara y una vibrante escena cultural.</p>
+                </div>
+                <div class="caja">
+                    <img src="./img/termas.jpg" width="325"/>
+                    <h2>Termas de Reyes</h2>
+                    <p>Complejo termal cerca de San Salvador de Jujuy, con aguas terapéuticas y vistas a las montañas.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
-
+    <footer>
+        <h2>pie de pagina</h2>
+    </footer>
 </body>
 </html>
