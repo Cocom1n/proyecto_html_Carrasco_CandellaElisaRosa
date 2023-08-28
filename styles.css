@@ -1,18 +1,54 @@
 body{
-    background-color: plum;
+    background-color: #F4EEEE;
+}
+
+header{
+    background-color: #96C291;
+    padding: 25px;
+    text-align: center;
+}
+
+.owo{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+}
+
+.lateral{
+    background-color: #FFB7B7;
+    padding: 30px;
+}
+
+u{
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    height: 40px;
 }
 
 .contenedor{
     display: flex;
     flex-flow: row wrap;
-    background-color: aqua;
+    flex: 70%;
+}
+
+#subti{
+    width: 100%;
 }
 
 .caja {
-    border: 1px solid black;
-    background-color: beige;
+    padding: 20px;
+    border: 1px solid #cf956e;
+    border-radius: 10px;
+    background-color: #F4EEEE;
     width: 300px;
-    height: 300px;
-    text-align: center;
+    height: 400px;
+    text-align: left;
     margin: 5px;
+}
+
+footer{
+    background-color: #FFDBAA;
 }
