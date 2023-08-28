@@ -1,5 +1,6 @@
 body{
     background-color: #F4EEEE;
+    min-height: 100vh;
 }
 
 header{
@@ -8,10 +9,10 @@ header{
     text-align: center;
 }
 
-.owo{
-    display: flex;
-    flex-flow: row wrap;
-    margin: 10px;
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 20px;
 }
 
 .lateral{
@@ -28,10 +29,10 @@ li{
     height: 40px;
 }
 
-.contenedor{
-    display: flex;
-    flex-flow: row wrap;
-    flex: 70%;
+.elementos{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    gap: 20px;
 }
 
 #subti{
