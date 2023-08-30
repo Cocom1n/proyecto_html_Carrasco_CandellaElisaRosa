@@ -40,7 +40,7 @@ body{
 
 .contenedor{
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 6fr;
     grid-gap: 10px;
     margin: auto;
     width: 100%;
@@ -49,7 +49,7 @@ body{
 
 .lateral{
     background-color: #ffa590;
-    padding: 30px;
+    padding: 15px 30px;
     color: #F4EEEE;
 
 }
@@ -59,7 +59,8 @@ body{
     font-size: 40px;
     margin: 0px;
     margin-bottom: 30px;
-    position: fixed;
+    /* position: fixed; */
+    text-align: center;
 
 }
 
@@ -67,12 +68,20 @@ body{
     text-decoration: none;
     list-style: none;
     padding-top: 75px;
-    position: fixed;
+    /* position: fixed; */
 
 }
 
 li{
     height: 40px;
+    width: 130px;
+    justify-content: space-between;
+    background-color: #fff1d7;
+    color: #45424e;
+    margin: 10px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 50px;
 }
 
 /* Contenido */
@@ -89,10 +98,10 @@ li{
 .pantalla h1{
     display: grid;
     text-align: center;
-    color: #F4EEEE;
+    color: #2b1010;
     font-size: 40px;
     float: left;
-    text-shadow: 3px 3px 0px #56413e; 
+    text-shadow: 3px 3px 0px white;
     margin: 0px 100px;
 
 }
