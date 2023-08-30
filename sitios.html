@@ -8,25 +8,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <header>
-        <h1>Jujuy</h1>
-        
-    </header> -->
 
+    <!-- barra superior -->
     <nav class="barra-superior">
-        <div class="contenedor">
+        <div class="barra">
           <h1 class="titulo">Jujuy</h1>
+          <!-- barra de buscar -->
           <form class="buscar" role="search">
-            <input class="control" type="search" placeholder="Buscar" aria-label="Search">
-            <button class="buscar" type="submit">Buscar</button>
+            <input type="search" placeholder="Buscar" aria-label="Search">
+            <button class="boton" type="submit">Buscar</button> 
           </form>
         </div>
-      </nav>
+    </nav>
 
     <div class="contenedor">
 
         <div class="lateral">
-            <h2>Jujuy</h2>
+            <h2>jujuy</h2>
             <u>
                 <li>Turismo</li>
                 <li>Dormir</li>
@@ -37,7 +35,7 @@
         </div>
         <div class="pantalla">
             <div>
-                <h1 class="titulo">Atracciones turisticas de Jujuy</h1>
+                <h1>Atracciones turisticas de Jujuy</h1>
             </div>
 
             <div class="elementos">
@@ -45,28 +43,60 @@
                     <img src="./img/humahuaca.jpg" width="325"/>
                     <h2>Quebrada de Humahuaca</h2>
                     <p>Un deslumbrante cañón de colores cambiantes y pueblos históricos, Patrimonio de la Humanidad por la UNESCO.</p>
+                    <label for="puntos">Puntuacion:</label>
+                    <select class="puntos">
+                        <option value="1">1 ☆</option>
+                        <option value="2">2 ☆</option>
+                        <option value="3">3 ☆</option>
+                        <option value="4">4 ☆</option>
+                        <option value="5">5 ☆</option>
+                    </select>
                 </div>
                 <div class="caja">
                     <img src="./img/salinas.jpg" width="325"/>
                     <h2>Salinas Grandes</h2>
                     <p>Un vasto desierto de sal que brilla bajo el sol, creando un paisaje surrealista y único.</p>
+                    <label for="puntos">Puntuacion:</label>
+                    <select class="puntos">
+                        <option value="1">1 ☆</option>
+                        <option value="2">2 ☆</option>
+                        <option value="3">3 ☆</option>
+                        <option value="4">4 ☆</option>
+                        <option value="5">5 ☆</option>
+                    </select>
                 </div>
                 <div class="caja">
                     <img src="./img/tilcara.jpg" width="325"/>
                     <h2>Tilcara</h2>
                     <p>Pueblo pintoresco con arquitectura de adobe, el Pucará de Tilcara y una vibrante escena cultural.</p>
+                    <label for="puntos">Puntuacion:</label>
+                    <select class="puntos">
+                        <option value="1">1 ☆</option>
+                        <option value="2">2 ☆</option>
+                        <option value="3">3 ☆</option>
+                        <option value="4">4 ☆</option>
+                        <option value="5">5 ☆</option>
+                    </select>
                 </div>
                 <div class="caja">
                     <img src="./img/termas.jpg" width="325"/>
                     <h2>Termas de Reyes</h2>
                     <p>Complejo termal cerca de San Salvador de Jujuy, con aguas terapéuticas y vistas a las montañas.</p>
+                    <label for="puntos">Puntuacion:</label>
+                    <select class="puntos">
+                        <option value="1">1 ☆</option>
+                        <option value="2">2 ☆</option>
+                        <option value="3">3 ☆</option>
+                        <option value="4">4 ☆</option>
+                        <option value="5">5 ☆</option>
+                    </select>
                 </div>
             </div>
         </div>
 
     </div>
     <footer>
-        <h2>pie de pagina</h2>
+        <h2>Jujuy, el corazón del noroeste argentino</h2>
     </footer>
 </body>
 </html>
